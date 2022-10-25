@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/chris-portfolio-os/static/css/main.073c9b0a.css",
+    "main.js": "/chris-portfolio-os/static/js/main.c4d2c783.js",
+    "index.html": "/chris-portfolio-os/index.html",
+    "main.073c9b0a.css.map": "/chris-portfolio-os/static/css/main.073c9b0a.css.map",
+    "main.c4d2c783.js.map": "/chris-portfolio-os/static/js/main.c4d2c783.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.c4d2c783.js"
+  ]
+}
