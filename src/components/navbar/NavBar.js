@@ -6,20 +6,26 @@ import About from "../../pages/About/About";
 import Portfolio from "../../pages/Portfolio/Portfolio";
 import Contact from "../../pages/Contact/Contact";
 
-import { FaHome } from "react-icons/fa";
-import { BsPersonCircle } from "react-icons/bs";
-import { RiGalleryFill } from "react-icons/ri";
-import { MdContactMail } from "react-icons/md";
+import Clock from "../clock/clock";
 
 import Logo from "../../assets/img/logo.png";
 
 import {
-  ClockStyle,
   LogoFlex,
   LogoStyle,
   LiFix,
   NavLinkFlex,
   NavWrapper,
+  HomeIcon,
+  AboutIcon,
+  GalleryIcon,
+  ContactIcon,
+  TextDeco,
+  LinkedIcon,
+  GithubIcon,
+  TwitterIcon,
+  SocialSection,
+  ClockFlex,
 } from "./navBarStyles";
 
 function NavBar() {
@@ -32,34 +38,44 @@ function NavBar() {
         <div>
           <LiFix>
             <NavLinkFlex exact to="/" end>
-              <FaHome />
-              <small>Hjem</small>
+              <HomeIcon />
+              <TextDeco>Hjem</TextDeco>
             </NavLinkFlex>
           </LiFix>
           <LiFix>
             <NavLinkFlex to="/about">
-              <BsPersonCircle />
-              <small>Om meg</small>
+              <AboutIcon />
+              <TextDeco>Om meg</TextDeco>
             </NavLinkFlex>
           </LiFix>
           <LiFix>
             <NavLinkFlex to="/portfolio">
-              <RiGalleryFill />
-              <small>Portefølje</small>
+              <GalleryIcon />
+              <TextDeco>Portefølje</TextDeco>
             </NavLinkFlex>
           </LiFix>
           <LiFix>
             <NavLinkFlex to="/contact">
-              <MdContactMail />
-              <small>Kontakt</small>
+              <ContactIcon />
+              <TextDeco>Kontakt</TextDeco>
             </NavLinkFlex>
           </LiFix>
         </div>
-        <ClockStyle
-          src="https://free.timeanddate.com/clock/i8k81z34/n290/tlno10/tct/pct/tt0/tw0/tm1/ts1/tb4"
-          frameborder="0"
-          allowtransparency="true"
-        ></ClockStyle>
+
+        <SocialSection>
+          <a href="https://www.linkedin.com/in/chris-sabre/" target="_blank">
+            <LinkedIcon />
+          </a>
+          <a href="https://github.com/ChristianSB89" target="_blank">
+            <GithubIcon />
+          </a>
+          <a href="https://twitter.com/ChrisSanBrei" target="_blank">
+            <TwitterIcon />
+          </a>
+        </SocialSection>
+        <ClockFlex>
+          <Clock />
+        </ClockFlex>
       </NavWrapper>
       <Routes>
         <Route path="/" element={<LandingPage />} />
