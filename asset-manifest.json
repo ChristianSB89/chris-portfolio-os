@@ -1,17 +1,25 @@
 {
   "files": {
-    "main.css": "/chris-portfolio-os/static/css/main.88636d22.css",
-    "main.js": "/chris-portfolio-os/static/js/main.5dbcd164.js",
+    "main.css": "/chris-portfolio-os/static/css/main.f66824fb.css",
+    "main.js": "/chris-portfolio-os/static/js/main.d641c25c.js",
     "static/media/transport.png": "/chris-portfolio-os/static/media/transport.5cc6ce0a5e5eb0271665.png",
     "static/media/side-shot.png": "/chris-portfolio-os/static/media/side-shot.11d940c102b97eed10eb.png",
+    "static/media/planets.png": "/chris-portfolio-os/static/media/planets.19c0d4e7197c33ca69da.png",
+    "static/media/map.png": "/chris-portfolio-os/static/media/map.2b5bf61c525844d7edd6.png",
+    "static/media/drumkit.png": "/chris-portfolio-os/static/media/drumkit.2ff95e76e771f0fd3d0b.png",
+    "static/media/dolingen_thumb.png": "/chris-portfolio-os/static/media/dolingen_thumb.836fc63efdb706cc0722.png",
+    "static/media/portfolio.png": "/chris-portfolio-os/static/media/portfolio.d0612e7cc4ba0c6dba82.png",
+    "static/media/nav-app.png": "/chris-portfolio-os/static/media/nav-app.220a3c07bc9f75ed4c11.png",
+    "static/media/minecraft-clone.png": "/chris-portfolio-os/static/media/minecraft-clone.92e22c2b581b5bd8234f.png",
+    "static/media/to-doList.png": "/chris-portfolio-os/static/media/to-doList.3d07c7feb8fee5b1627c.png",
     "static/media/cv.pdf": "/chris-portfolio-os/static/media/cv.ee83e027e2268ac34cb4.pdf",
     "static/media/logo.png": "/chris-portfolio-os/static/media/logo.cbd240e01a7c6a11717c.png",
     "index.html": "/chris-portfolio-os/index.html",
-    "main.88636d22.css.map": "/chris-portfolio-os/static/css/main.88636d22.css.map",
-    "main.5dbcd164.js.map": "/chris-portfolio-os/static/js/main.5dbcd164.js.map"
+    "main.f66824fb.css.map": "/chris-portfolio-os/static/css/main.f66824fb.css.map",
+    "main.d641c25c.js.map": "/chris-portfolio-os/static/js/main.d641c25c.js.map"
   },
   "entrypoints": [
-    "static/css/main.88636d22.css",
-    "static/js/main.5dbcd164.js"
+    "static/css/main.f66824fb.css",
+    "static/js/main.d641c25c.js"
   ]
 }
