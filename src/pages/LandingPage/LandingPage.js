@@ -1,5 +1,5 @@
 import React from "react";
-
+import Draggable from "react-draggable";
 import CV from "../../assets/documents/cv.pdf";
 
 import ProfileImg from "../../assets/img/side-shot.png";
@@ -25,34 +25,36 @@ import {
 
 function LandingPage() {
   return (
-    <PageWrapper>
-      <WindowMain>
-        <WindowBar>
-          <BarTxt>Christian Sandum Breivik</BarTxt>
-          <section className="icon-group">
-            <Minimize />
-            <Maximize />
-            <CloseIcon />
-          </section>
-        </WindowBar>
-        <ContentWrapper>
-          <ImgBtnGroup>
-            <ImageStyle src={ProfileImg} />
-            <CTA>
-              <StyledBtn href={CV} download>
-                Last ned CV
-              </StyledBtn>
-            </CTA>
-          </ImgBtnGroup>
-          <TextWrapper>
-            <TextContent>Frontend utvikler</TextContent>
-            <TextContent>Tech nerd</TextContent>
-            <TextContent>Grafisk designer</TextContent>
-            <TextContent>Illustratør</TextContent>
-          </TextWrapper>
-        </ContentWrapper>
-      </WindowMain>
-    </PageWrapper>
+    <Draggable>
+      <PageWrapper>
+        <WindowMain>
+          <WindowBar>
+            <BarTxt>Christian Sandum Breivik</BarTxt>
+            <section className="icon-group">
+              <Minimize />
+              <Maximize />
+              <CloseIcon />
+            </section>
+          </WindowBar>
+          <ContentWrapper>
+            <ImgBtnGroup>
+              <ImageStyle src={ProfileImg} />
+              <CTA>
+                <StyledBtn href={CV} download>
+                  Last ned CV
+                </StyledBtn>
+              </CTA>
+            </ImgBtnGroup>
+            <TextWrapper>
+              <TextContent>Frontend utvikler</TextContent>
+              <TextContent>Tech nerd</TextContent>
+              <TextContent>Grafisk designer</TextContent>
+              <TextContent>Illustratør</TextContent>
+            </TextWrapper>
+          </ContentWrapper>
+        </WindowMain>
+      </PageWrapper>
+    </Draggable>
   );
 }
 

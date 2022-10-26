@@ -1,11 +1,7 @@
 body {
   margin: 0;
   font-family: "Ubuntu", sans-serif;
-  /* background: linear-gradient(
-    45deg,
-    rgba(67, 109, 153, 1) 0%,
-    rgba(106, 244, 247, 1) 100%
-  ); */
+
   background: linear-gradient(
       180deg,
       rgba(67, 109, 153, 0) 20%,
