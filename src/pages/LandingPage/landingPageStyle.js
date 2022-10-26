@@ -32,7 +32,7 @@ export const TextAlignLeft = styled.section`
 
 export const TextStyle = styled.h2`
   margin: 0.5em 0;
-  padding: 0.5em;
+  padding: 0.5em 1em;
   color: #4678a1;
   border-radius: 4em;
   background: rgba(255, 255, 255, 0.54);

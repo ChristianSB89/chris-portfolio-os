@@ -123,19 +123,18 @@ export const NavLinkFlex = styled(NavLink)`
   backdrop-filter: blur(7px);
   -webkit-backdrop-filter: blur(7px);
   border: 1px solid rgba(255, 255, 255, 0.25);
-  padding: 1em 0;
-  margin: 0.2em 0;
-  border-radius: 0 0.5em 0.5em 0;
+  padding: 0.5em;
+  margin: 0.5em 0.6em;
   text-decoration: none;
   transition: 200ms;
   &:hover {
-    border-radius: 0 1em 1em 0;
-    background: rgba(255, 255, 255, 0.6);
+    border-radius: 1em;
+    margin: 0.5em 0.3em;
   }
   &.active {
-    border-radius: 0 2em 2em 0;
-    padding-left: 2em;
+    border-radius: 1em;
     background: rgba(255, 255, 255, 0.9);
+    margin: 0.5em 0.2em;
   }
 `;
 
