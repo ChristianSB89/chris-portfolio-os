@@ -127,6 +127,7 @@ export const NavLinkFlex = styled(NavLink)`
   margin: 0.5em 0.6em;
   text-decoration: none;
   transition: 200ms;
+  border-radius: 0.5em;
   &:hover {
     border-radius: 1em;
     margin: 0.5em 0.3em;

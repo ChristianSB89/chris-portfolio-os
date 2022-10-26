@@ -8,58 +8,28 @@ export const PageWrapper = styled.section`
   justify-content: center;
 `;
 
+export const TextWrapper = styled.section`
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+`;
+
+export const TextContent = styled.p`
+  margin: 0;
+  padding: 0.5em 0;
+  font-weight: 500;
+  color: #1c3045;
+`;
+
 export const ContentWrapper = styled.section`
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  width: 100%;
 `;
 
-export const TextAlignRight = styled.section`
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  padding: 1em 2em;
-`;
-
-export const TextAlignLeft = styled.section`
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 1em 2em;
-`;
-
-export const TextStyle = styled.h2`
-  margin: 0.5em 0;
-  padding: 0.5em 1em;
-  color: #4678a1;
-  border-radius: 4em;
-  background: rgba(255, 255, 255, 0.54);
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(9.2px);
-  -webkit-backdrop-filter: blur(9.2px);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-`;
-
-export const MeSection = styled.section`
-  display: flex;
-  flex-direction: column;
-`;
-
-export const NameTag = styled.h1`
-  margin: 0.5em 0;
-  padding: 0.5em;
-  color: #4678a1;
-  border-radius: 4em;
-  font-size: 30px;
-  text-align: center;
-  background: rgba(255, 255, 255, 0.54);
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(9.2px);
-  -webkit-backdrop-filter: blur(9.2px);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  margin-bottom: 3em;
+export const ImgBtnGroup = styled.div`
+  padding: 1em;
 `;
 
 export const ImageStyle = styled.img`

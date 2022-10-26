@@ -7,36 +7,51 @@ import {
   ContentWrapper,
   CTA,
   ImageStyle,
-  NameTag,
+  ImgBtnGroup,
   PageWrapper,
   StyledBtn,
-  TextAlignLeft,
-  TextAlignRight,
-  TextStyle,
+  TextContent,
+  TextWrapper,
 } from "./landingPageStyle";
+
+import {
+  WindowMain,
+  WindowBar,
+  BarTxt,
+  Minimize,
+  Maximize,
+  CloseIcon,
+} from "../../components/global/windowStyle";
 
 function LandingPage() {
   return (
     <PageWrapper>
-      <ContentWrapper>
-        <TextAlignRight>
-          <TextStyle>Frontend utvikler</TextStyle>
-          <TextStyle>Tech nerd</TextStyle>
-        </TextAlignRight>
-        <section className="name-pic-collector">
-          <NameTag>Christian Sandum Breivik</NameTag>
-          <ImageStyle src={ProfileImg} />
-        </section>
-        <TextAlignLeft>
-          <TextStyle>Grafisk designer</TextStyle>
-          <TextStyle>Illustratør</TextStyle>
-        </TextAlignLeft>
-      </ContentWrapper>
-      <CTA>
-        <StyledBtn href={CV} download>
-          Last ned CV
-        </StyledBtn>
-      </CTA>
+      <WindowMain>
+        <WindowBar>
+          <BarTxt>Christian Sandum Breivik</BarTxt>
+          <section className="icon-group">
+            <Minimize />
+            <Maximize />
+            <CloseIcon />
+          </section>
+        </WindowBar>
+        <ContentWrapper>
+          <ImgBtnGroup>
+            <ImageStyle src={ProfileImg} />
+            <CTA>
+              <StyledBtn href={CV} download>
+                Last ned CV
+              </StyledBtn>
+            </CTA>
+          </ImgBtnGroup>
+          <TextWrapper>
+            <TextContent>Frontend utvikler</TextContent>
+            <TextContent>Tech nerd</TextContent>
+            <TextContent>Grafisk designer</TextContent>
+            <TextContent>Illustratør</TextContent>
+          </TextWrapper>
+        </ContentWrapper>
+      </WindowMain>
     </PageWrapper>
   );
 }
