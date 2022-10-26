@@ -26,6 +26,8 @@ import {
   TwitterIcon,
   SocialSection,
   ClockFlex,
+  CopyrightWrap,
+  Collector,
 } from "./navBarStyles";
 
 function NavBar() {
@@ -73,9 +75,14 @@ function NavBar() {
             <TwitterIcon />
           </a>
         </SocialSection>
-        <ClockFlex>
-          <Clock />
-        </ClockFlex>
+        <Collector>
+          <ClockFlex>
+            <Clock />
+          </ClockFlex>
+          <CopyrightWrap>
+            <TextDeco>CSB Ⓒ 2022</TextDeco>
+          </CopyrightWrap>
+        </Collector>
       </NavWrapper>
       <Routes>
         <Route path="/" element={<LandingPage />} />

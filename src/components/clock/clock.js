@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 
+import { ClockStyle } from "./clockStyling";
+
 const Clock = () => {
   let time = new Date().toLocaleTimeString();
   let [ctime, setCTime] = useState();
@@ -10,7 +12,7 @@ const Clock = () => {
   setInterval(updateTime, 1000);
   return (
     <>
-      <h4> {ctime}</h4>
+      <ClockStyle> {ctime}</ClockStyle>
     </>
   );
 };
